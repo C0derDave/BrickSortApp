@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codingcrusader.bricksortapp.InventoryActivity">
+
+    <item
+        android:id="@+id/action_save"
+        android:orderInCategory="0"
+        android:title="Save"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="0"
+        android:title="Search"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="0"
+        android:title="Settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_quit"
+        android:orderInCategory="0"
+        android:title="Exit"
+        app:showAsAction="never" />
+</menu>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="12dp"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/button_reset_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onResetButtonClicked"
+        android:text="Reset saved data" />
+
+    <CheckBox
+        android:id="@+id/checkbox_save_thumbnails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Always save image thumbnails?" />
+</LinearLayout>

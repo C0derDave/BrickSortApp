@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:weightSum="1"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="25dp">
+
+    <ImageView
+        android:id="@+id/imageview_part"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        app:srcCompat="@android:drawable/ic_menu_help"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="4dp" />
+
+    <TextView
+        android:id="@+id/textview_part_name"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1.00"
+        android:text="Name"
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/button_add_part"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:text="+"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/button_remove_part"
+        android:layout_width="45dp"
+        android:layout_height="match_parent"
+        android:text="-"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textview_part_amount"
+        android:layout_width="35dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:text="Amount"
+        android:textAlignment="textEnd"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_weight="0.27" />
+
+</android.widget.LinearLayout>
